@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="transparent">#00000000</color>
+    <!--<color name="transparent">#1A000000</color>-->
+    <!--<color name="colorPrimary">#8BC34A</color>-->
+    <!--<color name="colorPrimary">#C8B2E3</color>-->
+    <!--<color name="colorPrimaryDark">#C8B2E3</color>-->
+    <color name="gray">#757575</color>
+    <color name="colorPrimary">#DED9D5</color>
+    <color name="colorPrimaryDark">#B9AEA6</color>
+
+
+    <!--<color name="colorPrimaryDark">#689F38</color>-->
+    <color name="colorPrimaryLight">#DCEDC8</color>
+    <color name="colorAccent">#455A64</color>
+    <!--<color name="colorAccent">#CDDC39</color>-->
+
+    <color name="colorNoPassenger">#cddc39</color>
+    <color name="colorExistPassenger">#ef5350</color>
+    <color name="colorDisplayText">#212121</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorDivider">#EDEDED</color>
+    <color name="colorDivider2">#E0E0E0</color>
+
+    <color name="tealAccent">#009688</color>
+    <color name="blueGrayDark">#455A64</color>
+    <!--<color name="colorPlaneText">#BDBDBD</color>-->
+
+</resources>

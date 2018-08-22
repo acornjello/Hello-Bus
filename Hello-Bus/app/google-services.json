@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "915254629449",
+    "firebase_url": "https://memoapp-5c391.firebaseio.com",
+    "project_id": "memoapp-5c391",
+    "storage_bucket": "memoapp-5c391.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915254629449:android:99ef47e6b1f860de",
+        "android_client_info": {
+          "package_name": "com.acornjello.firenote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915254629449-r14juitjoi11gi6vjoiti0odjukodqei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.acornjello.firenote",
+            "certificate_hash": "53dbdef218ee126fbdd8020a64353dab0c78a4e4"
+          }
+        },
+        {
+          "client_id": "915254629449-97vcmg6j0q0b0hgb4dvh0us5h9itkh52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS4gVe8QfV5UYbsfx8Qq2255ffKDBJSaA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915254629449-97vcmg6j0q0b0hgb4dvh0us5h9itkh52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915254629449:android:d10969dc00a457fe",
+        "android_client_info": {
+          "package_name": "firebase.acornjello.com.sqlitetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915254629449-e5691qdm48etnc8svceepmmbsanbgj22.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "firebase.acornjello.com.sqlitetest",
+            "certificate_hash": "53dbdef218ee126fbdd8020a64353dab0c78a4e4"
+          }
+        },
+        {
+          "client_id": "915254629449-97vcmg6j0q0b0hgb4dvh0us5h9itkh52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS4gVe8QfV5UYbsfx8Qq2255ffKDBJSaA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915254629449-97vcmg6j0q0b0hgb4dvh0us5h9itkh52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915254629449:android:7c4505fee5b5688e",
+        "android_client_info": {
+          "package_name": "test.acornjello.com.busapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915254629449-jpbi9heqdhsv34eoohiaod9b3l06u0kv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "test.acornjello.com.busapp",
+            "certificate_hash": "53dbdef218ee126fbdd8020a64353dab0c78a4e4"
+          }
+        },
+        {
+          "client_id": "915254629449-97vcmg6j0q0b0hgb4dvh0us5h9itkh52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS4gVe8QfV5UYbsfx8Qq2255ffKDBJSaA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915254629449-97vcmg6j0q0b0hgb4dvh0us5h9itkh52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915254629449:android:b88fef7600ce9371",
+        "android_client_info": {
+          "package_name": "test.sks.com.busapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915254629449-ccdlhlenn819ambib7sr6p1grpnj8hr7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "test.sks.com.busapp",
+            "certificate_hash": "112bbd4834a199d3481313052cba7075d9386b6d"
+          }
+        },
+        {
+          "client_id": "915254629449-97vcmg6j0q0b0hgb4dvh0us5h9itkh52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS4gVe8QfV5UYbsfx8Qq2255ffKDBJSaA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915254629449-97vcmg6j0q0b0hgb4dvh0us5h9itkh52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

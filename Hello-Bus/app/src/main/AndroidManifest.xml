@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="test.sks.com.busapp">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- TODO (1) 재윤 추가 -->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <uses-feature
+            android:glEsVersion="0x00020000"
+            android:required="true" />
+
+        <permission
+            android:name="com.example1.sks.googlemaptest.permission.MAPS_RECEIVE"
+            android:protectionLevel="signature"></permission>
+        //INTERNET:맵타일 다운, ACCESS_NETWORK_STATE:데이터 연결상태 체크,
+        //WRITE_EXTERNAL_STORAGE:맵데이터저장, COARSE_LOCATION:디바이스위치결정하기위해 데이터 사용 허용
+        //FINE_LOCATION:API가 작은 범위까지 위치를 결정하기 위해 GPS 사용하도록 허용
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCAmYqKC5Npj-3XsYuNFp-Hp99oCQgpRqU" />
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/notitle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PeripheralStationTab" android:theme="@style/notitle" />
+        <activity android:name=".WhereIsStation" android:theme="@style/notitle"/>
+        <activity android:name=".RouteInfoActivity" android:theme="@style/notitle"/>
+        <activity android:name=".StationInfoActivity" android:theme="@style/notitle"
+
+            />
+        <!-- android:label = "버스 정류소 정보" -->
+        <!-- android:theme="@style/CustomTitle" -->
+        <activity android:name=".SearchRouteActivity" android:theme="@style/notitle"/>
+        <activity android:name=".SearchStationActivity" android:theme="@style/notitle"/>
+        <activity android:name=".FavoriteInfoActivity" android:theme="@style/notitle"/>
+        <activity
+            android:name=".UserSelectActivty"
+            android:configChanges="orientation"
+            android:theme="@style/Transparent" />
+        <activity android:name=".PeripheralStation" android:theme="@style/notitle"/>
+        <activity android:name=".PeripheralStationList" />
+        <activity
+            android:name=".AlarmActivity"
+            android:theme="@style/Transparent"/>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <service
+            android:name="AlertService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity android:name=".DriverInfoActivity" android:theme="@style/notitle"/>
+        <activity android:name=".AlertInfoActivity" android:theme="@style/notitle"/>
+        <activity android:name=".RouteMoreActivity" android:theme="@style/notitle"/>
+        <activity android:name=".RouteStationInfoActivity" android:theme="@style/notitle"/>
+        <activity android:name=".ModeActivity" />
+        <activity android:name=".InformationActivity" android:theme="@style/notitle"/>
+    </application>
+
+</manifest>
